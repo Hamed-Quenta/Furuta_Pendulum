@@ -12,9 +12,21 @@ Mgr. Gabriel Antonio Rojas Silva
 
 ![Simscape](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/3dview.png)
 
+## Esquema
+
+![Esquema](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/esquema.png)
+
 ## **Espacio de estados**
 
-![State Space](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/StateSpace.png)
+![State Space](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/espaciodeestados.png)
+
+## **Datos del sistema**
+
+![Datos](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/datos.png)
+
+## **Espacio de estados con datos reemplazados**
+
+![State Space1](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/espaciodeestados1.png)
 
 ## **Sistema en open-loop**
 
@@ -24,16 +36,16 @@ Mgr. Gabriel Antonio Rojas Silva
 
 1. PID
 2. LQR
-3. LQR
+3. LQG
 
 ## **Ganancias de cada controlador**
 
 ### **PID**
 
 ~~~matlab
-kp = -46.1621
-ki= -200.233
-kd= -4.03087
+kp = -2.2468
+ki= -0.063624
+kd= -14.626
 ~~~
 
 ### **LQR**
@@ -43,7 +55,6 @@ K = [-48.4768 -64.0586 -241.576 -54.3824]
 ~~~
 
 ## **LQG**
-
 
 ## **Gráficas resultantes**
 
@@ -61,24 +72,12 @@ K = [-48.4768 -64.0586 -241.576 -54.3824]
 
 ## **Datos de respuesta ante un step**
 
-### **Ángulo**
+### **Ángulo Theta**
 
 |Dato         |PID        |LQR       |FLC       |
 |-------------|:---------:|:--------:|:--------:|
-|RiseTime     |     0.0114|0.2708    |0.0861    |
-|SettlingTime |     2.4134|7.4297    |3.9158    |
-|Overshoot    | 6.7919e+06|1.7434e+06|1.0349e+05|
-|Peak         |     0.3014|0.1047    |0.1047    |
+|RiseTime     |     0.0275|0.2708    |0.0861    |
+|SettlingTime |     0.575 |7.4297    |3.9158    |
+|Overshoot    |      30.5%|1.7434e+06|1.0349e+05|
+|Peak         |        1.3|0.1047    |0.1047    |
 
-### **Desplazamiento**
-
-|Dato         |PID     |LQR     |FLC       |
-|-------------|:------:|:------:|:--------:|
-|RiseTime     |  0.5072|0.1774  |0.8611    |
-|SettlingTime |  4.8250|11.2368 |3.5633    |
-|SettlingMin  | -0.2677|0.2911  |-0.0283   |
-|SettlingMax  | -0.1067|0.4168  |0.0247    |
-|Overshoot    |130.5523|38.8452 |4.7159e+04|
-|Undershoot   |333.9609|0       |5.2974e+05|
-|Peak         |  0.3877|0.4168  |0.3176    |
-|PeakTime     |  0.0588|0.7807  |0.2670    |
