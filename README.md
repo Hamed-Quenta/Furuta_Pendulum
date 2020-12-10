@@ -2,7 +2,6 @@
 
 **Integrantes:**  
 Christian Ricardo Conchari Cabrera
-
 Hamed Emmerson Quenta Alvarez  
 Franklin Josué Ticona Coaquira
 
