@@ -50,7 +50,7 @@ kd= -14.626
 K = [-3.1623 -2.0889 -26.0826 -2.5986]
 ~~~
 
-## **LQG**
+### **LQG**
 
 ## **Gráficas resultantes para Theta**
 
