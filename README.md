@@ -36,7 +36,7 @@ Mgr. Gabriel Antonio Rojas Silva
 
 1. PID
 2. LQR
-3. LQR
+3. LQG
 
 ## **Ganancias de cada controlador**
 
@@ -72,7 +72,7 @@ K = [-48.4768 -64.0586 -241.576 -54.3824]
 
 ## **Datos de respuesta ante un step**
 
-### **Ángulo**
+### **Ángulo Theta**
 
 |Dato         |PID        |LQR       |FLC       |
 |-------------|:---------:|:--------:|:--------:|
@@ -81,15 +81,3 @@ K = [-48.4768 -64.0586 -241.576 -54.3824]
 |Overshoot    | 6.7919e+06|1.7434e+06|1.0349e+05|
 |Peak         |     0.3014|0.1047    |0.1047    |
 
-### **Desplazamiento**
-
-|Dato         |PID     |LQR     |FLC       |
-|-------------|:------:|:------:|:--------:|
-|RiseTime     |  0.5072|0.1774  |0.8611    |
-|SettlingTime |  4.8250|11.2368 |3.5633    |
-|SettlingMin  | -0.2677|0.2911  |-0.0283   |
-|SettlingMax  | -0.1067|0.4168  |0.0247    |
-|Overshoot    |130.5523|38.8452 |4.7159e+04|
-|Undershoot   |333.9609|0       |5.2974e+05|
-|Peak         |  0.3877|0.4168  |0.3176    |
-|PeakTime     |  0.0588|0.7807  |0.2670    |
