@@ -12,9 +12,21 @@ Mgr. Gabriel Antonio Rojas Silva
 
 ![Simscape](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/3dview.png)
 
+## Esquema
+
+![Esquema](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/esquema.png)
+
 ## **Espacio de estados**
 
-![State Space](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/StateSpace.png)
+![State Space](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/espaciodeestados.png)
+
+## **Datos del sistema**
+
+![Datos](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/datos.png)
+
+## **Espacio de estados**
+
+![State Space1](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/espaciodeestados1.png)
 
 ## **Sistema en open-loop**
 
@@ -31,9 +43,9 @@ Mgr. Gabriel Antonio Rojas Silva
 ### **PID**
 
 ~~~matlab
-kp = -46.1621
-ki= -200.233
-kd= -4.03087
+kp = -2.2468
+ki= -0.063624
+kd= -14.626
 ~~~
 
 ### **LQR**
