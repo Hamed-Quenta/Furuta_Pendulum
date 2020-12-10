@@ -24,7 +24,7 @@ Mgr. Gabriel Antonio Rojas Silva
 
 ![Datos](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/datos.png)
 
-## **Espacio de estados**
+## **Espacio de estados con datos reemplazados**
 
 ![State Space1](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/espaciodeestados1.png)
 
@@ -55,7 +55,6 @@ K = [-48.4768 -64.0586 -241.576 -54.3824]
 ~~~
 
 ## **LQG**
-
 
 ## **Gráficas resultantes**
 
