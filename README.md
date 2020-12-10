@@ -1,9 +1,9 @@
 # **Péndulo de Furuta**
 
-**Integrantes:**
-Christian Ricardo Conchari Cabrera
-Hamed Emmerson Quenta Alvarez
-Franklin Josué Ticona Coaquira
+**Integrantes:**  
+Christian Ricardo Conchari Cabrera  
+Hamed Emmerson Quenta Alvarez  
+Franklin Josué Ticona Coaquira  
 
 **Docente:**  
 Mgr. Gabriel Antonio Rojas Silva
