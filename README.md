@@ -28,10 +28,6 @@ Mgr. Gabriel Antonio Rojas Silva
 
 ![State Space1](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/espaciodeestados1.png)
 
-## **Sistema en open-loop**
-
-![open-loop](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/Grafica_open-loop.jpg)
-
 ## **Controladores implementados**
 
 1. PID
@@ -51,26 +47,37 @@ kd= -14.626
 ### **LQR**
 
 ~~~matlab
-K = [-48.4768 -64.0586 -241.576 -54.3824]
+K = [-3.1623 -2.0889 -26.0826 -2.5986]
 ~~~
 
 ## **LQG**
 
-## **Gráficas resultantes**
+## **Gráficas resultantes para Theta**
 
 ### **PID**
 
-![Grafica_PID](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/Grafica_PID.jpg)
+![Grafica_PID](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/pid_theta.png)
 
 ### **LQR**
 
-![Grafica_LQR](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/Grafica_LQR.jpg)
+![Grafica_LQR](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/lqr_theta.png)
 
 ### **LQG**
 
-![Grafica_FC](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/Grafica_FC.jpg)
+![Grafica_LQG](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/lqg_theta.png)
 
-## **Datos de respuesta ante un step**
+## **Gráficas resultantes para Alfa**
+
+### **LQR**
+
+![Grafica_LQR_a](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/lqr_alpha.png)
+
+### **LQG**
+
+![Grafica_LQG_a](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/lqg_alpha.png)
+
+
+## **Tabla Comparativa**
 
 ### **Ángulo Theta**
 
