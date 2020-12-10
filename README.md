@@ -18,15 +18,15 @@ Mgr. Gabriel Antonio Rojas Silva
 
 ## **Espacio de estados**
 
-![State Space](https://github.com/DRIAE/Furuta_Pendulum/blob/main/assets/espaciodeestados.png)
+![State Space](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/espaciodeestados.png)
 
 ## **Datos del sistema**
 
-![Datos](https://github.com/DRIAE/Furuta_Pendulum/blob/main/assets/datos.png)
+![Datos](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/datos.png)
 
 ## **Espacio de estados**
 
-![State Space1](https://github.com/DRIAE/Furuta_Pendulum/blob/main/assets/espaciodeestados1.png)
+![State Space1](https://github.com/DRIAE/Furuta_Pendulum/blob/master/assets/espaciodeestados1.png)
 
 ## **Sistema en open-loop**
 
